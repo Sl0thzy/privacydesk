@@ -1,10 +1,53 @@
 # PrivacyDesk 1.1
 
-A local Windows desktop app for auditing and managing privacy, diagnostic-data policies, location access, optional telemetry services, and scheduled tasks.
+## Your computer should work for you
+
+We believe Windows goes too far with telemetry, tracking, and personalized recommendations. People should have a clear say in what their operating system collects and shares. When those controls are scattered across settings, policies, services, and scheduled tasks, it can be hard to tell what is happening on your own computer.
+
+**PrivacyDesk helps you take that control back.** It brings Windows privacy controls into one app, shows how your PC is configured today, and lets you choose what to turn off. The goal is simple: **less unwanted data collection, more visibility, and more control over your own PC.**
+
+<img src="assets/privacydesk-logo-v1.png" width="160" alt="PrivacyDesk logo: a hidden figure inside a four-pane window" />
 
 [Download the Windows executable](dist/PrivacyDesk.exe) · [Download the portable ZIP](dist/PrivacyDesk-1.1-win-x64.zip)
 
-<img src="assets/privacydesk-logo-v1.png" width="160" alt="PrivacyDesk logo" />
+## What it does for you
+
+- **See where you stand.** Start with a read-only scan of Windows privacy settings and important protections such as Defender and the firewall. See which changes are already done and which are not.
+- **Choose what you share.** Reduce optional diagnostics, advertising personalization, activity uploads, and other tracking-related features. You can also block Windows location access and Find my device.
+- **Understand each choice.** Every control explains its effects. Low-impact options are grouped together; more aggressive service and task changes are optional.
+- **Stay in control of changes.** Review your selection, watch the live activity log, and use the automatic snapshot to undo the settings changed by a run.
+
+The basic flow is **scan → choose → apply → review**, with restore available if you change your mind. You do not need to edit the registry or understand PowerShell to use the app. PrivacyDesk runs its audit and settings operations locally, without an account or analytics, and leaves Windows security protections intact.
+
+This is a tool for reducing Windows data collection, not a promise that every kind of tracking disappears. Windows Pro/Home still retain required diagnostic data at their supported minimum, apps and browsers have their own privacy controls, and some restrictions affect features you may use. The app explains those tradeoffs before you apply them.
+
+## Product screenshots
+
+These screenshots use **example data**, not a published audit of a real user's PC. Your results will depend on your Windows edition and current settings.
+
+### Choose your privacy settings
+
+Review the current configuration, select individual controls or the low-impact preset, and read what each option changes. The activity log and restore actions stay close at hand.
+
+![PrivacyDesk privacy controls with selection checkboxes, current status, live log, and snapshot actions](docs/screenshots/privacy-controls.png)
+
+### See exactly what is already done
+
+The app-changes audit shows each setting's current value, the value PrivacyDesk would apply, and whether the setting is already done. This makes it easy to see what would actually change.
+
+![App-changes audit showing current state, intended state, and Done or Not done results](docs/screenshots/app-changes.png)
+
+### Check Windows protections
+
+The Windows protections view reports the security checks separately, including antivirus, real-time protection, firewall profiles, Secure Boot, and drive encryption where available.
+
+![Windows protections audit with example Defender, firewall, update, Secure Boot, and encryption results](docs/screenshots/windows-protections.png)
+
+### Keep a way back
+
+Restore history records snapshots from app runs. Choose an applied snapshot to restore the original values for that run's changes. The entry shown here is a demonstration.
+
+![Restore history with a demonstration snapshot and restore action](docs/screenshots/restore-history.png)
 
 ## Start
 
