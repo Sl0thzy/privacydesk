@@ -68,8 +68,6 @@ The **Check for updates** button opens [the GitHub repository](https://github.co
 
 ## What is included
 
-The footer includes optional Bitcoin donations to `3AGX6413JJXpcWuDc8AQExDVgHNAkxwJMA`, a copy-address button, and a button opening https://linktr.ee/mrsquidsloth in your default browser. The link opens only when clicked; the app does not initiate payments.
-
 - Minimum diagnostic-data policy appropriate to the Windows edition; diagnostic logs/dumps; device-name exclusion; feedback requests.
 - Advertising ID; correctly user-scoped tailored-experience policy; typing/inking collection; launch tracking; website language-list sharing.
 - Activity publication/uploads and optional activity-feed disabling.
