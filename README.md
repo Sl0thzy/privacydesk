@@ -4,7 +4,7 @@
 
 We believe Windows goes too far with telemetry, tracking, and personalized recommendations. People should have a clear say in what their operating system collects and shares. When those controls are scattered across settings, policies, services, and scheduled tasks, it can be hard to tell what is happening on your own computer.
 
-**PrivacyDesk helps you take that control back.** It brings Windows privacy controls into one app, shows how your PC is configured today, and lets you choose what to turn off. The goal is simple: **less unwanted data collection, more visibility, and more control over your own PC.**
+**PrivacyDesk helps you take that control back.** It brings Windows privacy controls into one app, shows how your PC is configured today, and lets you choose what to turn off.
 
 <img src="assets/privacydesk-logo-v1.png" width="160" alt="PrivacyDesk logo: a hidden figure inside a four-pane window" />
 
