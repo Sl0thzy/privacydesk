@@ -1,0 +1,9 @@
+# Local test outputs and machine-specific audit data
+/tests/*
+!/tests/README.md
+*.clixml
+*.clixml.previous
+*.log
+*.local.jsonl
+/src/*.tmp
+ui-error.txt
